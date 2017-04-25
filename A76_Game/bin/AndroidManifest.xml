@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a76_game"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+	<!-- 라벨, 테마 변경 -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/images"
+        android:label="@string/title"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+		<!-- 라벨, 화면 보기 변경 -->
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title"
+            
+            android:screenOrientation="sensorPortrait"> 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name="GameActivity"></activity>
+    </application>
+
+</manifest>

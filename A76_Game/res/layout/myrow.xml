@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<!-- 커스텀 뷰 이미지 표시 -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+		android:layout_marginRight="20dp"
+        android:src="@drawable/ic_launcher" />
+	<!-- 커스텀 뷰 노래 제목 -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:text="TextView" />
+	<!-- 커스텀 뷰 노래 장르 -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:textColor="#000"
+        android:layout_marginBottom="15dp"
+        
+        android:text="TextView" />
+
+</RelativeLayout>

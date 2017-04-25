@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativedeath"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="10dp"
+    android:background="#55ffffff" >
+
+    <ImageView
+        android:id="@+id/imageDeath"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/deathfish" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingBottom="40dp"
+        android:layout_alignLeft="@+id/textView1"
+        android:text="물고기 사망"
+        android:textColor="#fff"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingTop="40dp"
+        android:layout_toRightOf="@+id/imageDeath"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fff"
+        android:text="밥 좀 제대로 주지.."
+        android:textSize="20sp" />
+</RelativeLayout>

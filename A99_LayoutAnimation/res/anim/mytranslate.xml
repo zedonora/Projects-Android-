@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="100%p"
+    android:fromYDelta="0"
+    android:toXDelta="0%p"
+    android:toYDelta="0"
+    android:duration="1000"
+    >
+<!--      android:toXDelta="0%p"에서 p는 부모를 기준으로 하겠다는 코드 -->
+
+</translate>

@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	
+	<!-- surfaceView 생성 -->
+    <com.example.a76_game.MySurfaceView 
+        android:id="@+id/myView" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+		  <!-- 위의 화면이 투명상태로 보이게 하여 아래의 시작 버튼과 문구만 있게 보이게 해줌 -->
+          <ImageView
+              android:id="@+id/imageView1"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+             android:layout_weight="2" />
+       
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="1" >
+
+			<!-- 시작 버튼 -->
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="        시작        " />
+			<!-- 안내문구 -->
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="시작을 누르면 시작해요.시작시작시작" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+</FrameLayout>

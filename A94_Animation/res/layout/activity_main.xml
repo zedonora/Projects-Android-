@@ -1,0 +1,152 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   	android:background="@drawable/rainvow" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/clong" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="75dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_marginBottom="23dp"
+        android:src="@drawable/mm" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="start" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="75dp"
+        android:layout_height="54dp"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView2"
+        android:src="@drawable/mm" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:src="@drawable/ll" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="75dp"
+        android:layout_height="54dp"
+        android:layout_alignLeft="@+id/ImageView01"
+        android:layout_alignTop="@+id/ImageView01"
+        android:src="@drawable/mm" />
+
+    <ImageView
+        android:id="@+id/ballun1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button1"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/ballun6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/ballun1"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/ballun8"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/ballun6"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/ballun2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/ballun3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ballun4"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/ballun7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/ImageView01"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/ballun5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/ballun7"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/ballun9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ImageView01"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/ballun4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ballun9"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/ImageView01"
+        android:layout_alignRight="@+id/ballun6"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="22dp"
+        android:src="@drawable/starstar" />
+
+    <ImageView
+        android:id="@+id/ballunballun1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ballun4"
+        android:src="@drawable/ballun" />
+
+    <ImageView
+        android:id="@+id/ballunballun2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/ballun3"
+        android:src="@drawable/ballun" />
+
+</RelativeLayout>

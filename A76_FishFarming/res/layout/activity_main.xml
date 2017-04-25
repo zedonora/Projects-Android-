@@ -1,0 +1,104 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background" >
+
+    <com.kosta.daehee.a76_fishfarming.GameView
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 하단 레이아웃 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <!-- 상단 상태창 레이아웃 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="5dp"
+                android:text="게임 종료" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="물고기 수 : / 점수 : "
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="#66000000" />
+        </RelativeLayout>
+
+        <!-- 하단 버튼 구성 레이아웃 -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:layout_marginRight="40dp" >
+
+            <Button
+                android:id="@+id/fish0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="물고기0" />
+
+            <Button
+                android:id="@+id/fish1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="물고기1" />
+
+            <Button
+                android:id="@+id/fish2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="물고기2" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="40dp" >
+
+                <RadioButton
+                    android:id="@+id/radio0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="먹이 1" 
+                    android:layout_marginRight="10dp"/>
+
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="먹이 2" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</FrameLayout>
