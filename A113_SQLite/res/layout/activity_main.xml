@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="4" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:text="name"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:text="age"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:text="address"
+            android:textSize="20sp" />
+<!--  1. insert 행 -->
+        <EditText
+            android:id="@+id/etInsertName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:ems="4"
+            >
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/etInsertAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:ems="3"
+            android:inputType="number" />
+        
+        <EditText
+            android:id="@+id/etInsertAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:ems="5"
+            />
+
+        <Button
+            android:id="@+id/bInsert"
+            android:layout_column="3"
+            android:layout_row="1"
+            android:text="추가" />
+        
+<!--  2. Update 행 -->
+
+        <EditText
+            android:id="@+id/etUpdateName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:ems="4"
+            />
+        
+        <EditText
+            android:id="@+id/etUpdateAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:ems="3"
+            android:inputType="number" />
+        
+        <Button
+            android:id="@+id/bUpdate"
+            android:layout_column="3"
+            android:layout_row="2"
+            android:text="수정" />
+        
+<!--  3. Delete 행 -->
+
+        <EditText
+            android:id="@+id/etDeleteName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:ems="4"
+            />
+        
+        <Button
+            android:id="@+id/bDelete"
+            android:layout_column="3"
+            android:layout_row="3"
+            android:text="삭제" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tvSelect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="조회결과" />
+
+</LinearLayout>

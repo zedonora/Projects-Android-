@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="캡쳐" />
+
+	    <Button
+	        android:id="@+id/button2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="처리1" 
+	        android:tag="1"
+	        />
+	    	
+	    <Button
+	        android:id="@+id/button3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="처리2" 
+	        android:tag="2"
+	        />
+	    
+	    <Button
+	        android:id="@+id/button4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="처리3" 
+	        android:tag="3"
+	        />
+	    
+	    <Button
+	        android:id="@+id/button5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="처리4" 
+	        android:tag="4"
+	        />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

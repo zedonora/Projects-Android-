@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bombom2" >
+
+    <com.example.a111_myprofile.MysurfaceView
+        android:id="@+id/myView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/myface" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginBottom="22dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="원하시는 이미지를 클릭하세요"
+        android:textColor="#FFFF0000" />
+
+    <Gallery
+        android:id="@+id/gallery1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:spacing="10dp"
+        android:unselectedAlpha="0.3" />
+
+</RelativeLayout>
