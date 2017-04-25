@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/menu_color"
+        android:title="색상변경" />
+    <item 
+        android:id="@+id/menu_copy"
+        android:title="복사하기"/>
+   	<item
+   	    android:title="점심메뉴">
+   	    <menu>
+   	        <item android:id="@+id/submenu1"
+   	            android:title="짜장면"/>
+   	        <item android:id="@+id/submenu2"
+   	            android:title="짬뽕"/>
+   	        <item android:id="@+id/submenu3"
+   	            android:title="탕수육"/>
+   	    </menu> 
+   	    
+   	</item>
+
+</menu>

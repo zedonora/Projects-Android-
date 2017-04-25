@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="상단고정" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="스크롤 상단버튼" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="양키스가 니스를 방출했다.
+
+메이저리그 공식 홈페이지 MLB.com은 3월 27일(한국시간) 뉴욕 양키스가 존 니스를 방출했다고 전했다.
+
+MLB.com에 따르면 양키스는 이날 니스를 공식 방출했다. 지난 2월 21일 양키스와 마이너리그 계약을 맺고 스프링캠프에 초청받은 니스는 약 한 달 만에 다시 '무적' 신세가 됐다.
+
+양키스가 니스를 방출한 것은 니스의 몸 상태 때문이다. MLB.com에 따르면 조 지라디 감독은 니스는 팔 힘도 무릎 상태도 부족하다. 지난해에 비해 구속이 부족하고 몸이 한 두달 내에 준비될 상태가 아니다고 말했다.
+
+니스는 이번 스프링캠프에서 6경기에 등판해 6이닝을 투구했고 평균자책점 4.50을 기록했다. 
+
+지난해 무릎 부상으로 시즌을 일찍 마친 니스는 재활에 매진했고 양키스와 마이너계약을 맺고 재기에 도전했다. 하지만 몸 상태가 부족하다는 판정을 받았고 다시 새 팀을 찾아야 하는 상황에 처했다.
+
+한편 2005년 신인드래프트 7라운드 전체 209순위로 뉴욕 메츠에 지명된 니스는 2008년 빅리그에 데뷔했고 지난해 피츠버그 파이어리츠에서 23경기에 나선 것을 제외하면 모든 커리어를 메츠에서 쌓았다. 니스는 빅리그 통산 211경기(197GS)에 등판해 1,189.1이닝을 투구했고 69승 68패, 평균자책점 4.07을 기록 중이다.(자료사진=존 니스)
+" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="하단고정" />
+
+</LinearLayout>
