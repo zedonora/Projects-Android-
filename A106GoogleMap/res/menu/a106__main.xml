@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.a106googlemap.A106_MainActivity" >
+
+    <item
+        android:id="@+id/menu1"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="일반지도"/>
+    <item
+        android:id="@+id/menu2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="위성지도"/>
+    <item
+        android:id="@+id/menu3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="지형도"/>
+    <item
+        android:id="@+id/menu4"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="None"/>
+    <item
+        android:id="@+id/menu5"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Hybrid"/>
+
+</menu>

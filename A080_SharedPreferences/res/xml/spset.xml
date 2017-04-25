@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="환경설정1">
+        <EditTextPreference 
+            android:title="IP Address"
+            android:summary="아이피 주소를 입력하세요"
+            android:defaultValue="211.111.222.3"
+            android:key="ip"
+            />
+        <CheckBoxPreference 
+            android:title="개발자 모드"
+            android:summaryOn="테스트시에 체크하세요"
+            android:defaultValue="false"
+            android:key="dev"
+            />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="환경설정2">
+        <ListPreference 
+            android:title="시간 설정"
+            android:summary="원하는 시간을 설정하세요"
+            android:key="time"
+            android:entries="@array/timeHuman"
+            android:entryValues="@array/time"
+            android:dialogTitle="time 설정"
+            android:defaultValue="1시"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

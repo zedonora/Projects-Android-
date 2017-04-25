@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:delay="0.5"
+    android:animation="@anim/myanim"
+    >
+<!--       android:delay="0.5"			0일경우 동시에 모두 시작.시간을 지정할 경우 첫번째 부터 순서대로 주어진 값 뒤에 자식들 애니메이션이 실행된다 -->
+</layoutAnimation>

@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        android:text="GPS정보수신대기중" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:layout_weight="1"
+        android:text="Network 정보 수신 대기중" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:textSize="20sp"
+         android:layout_weight="1"
+        android:text="Passive 정보 수신 대기중" />
+
+</LinearLayout>
