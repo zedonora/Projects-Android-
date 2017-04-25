@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:textSize="30sp"
+        android:text="www.naver.com" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="email"
+        android:textSize="30sp"
+        android:text="timeundtime@gmail.com" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:textSize="30sp"
+        android:text="안녕 010-3132-6483 하세요" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="map"
+        android:textSize="20sp"
+        android:text="1945 W 20th St Los Angeles, CA 90007" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autoLink="all"
+        android:textSize="20sp"
+        android:text="010.3132.6483 timeundtime@gmail.com 주소 1945 W 20th St Los Angeles, CA 90007" />
+
+</LinearLayout>

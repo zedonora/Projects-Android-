@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+<!-- gravity : 위젯 내부에 여유공간이 있을 경우, 정렬 -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0"
+        android:gravity="right"
+        android:text="아버지" />
+<!-- layout_gravity : 위젯과 레이아웃 사이에 여유공간이 있을 경우, 정렬 -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0f0"
+        android:layout_gravity="right"
+        android:text="어머니" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#7f00"
+        android:layout_margin="30dp"
+        android:padding="50dp"
+        android:visibility="gone"
+        android:text="아들" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
